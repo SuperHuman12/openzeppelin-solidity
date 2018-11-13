@@ -4,10 +4,10 @@ import "./ERC20.sol";
 import "../../access/roles/MinterRole.sol";
 
 /**
- * @title ERC20Mintable
+ * @title MintableToken
  * @dev ERC20 minting logic
  */
-contract ERC20Mintable is ERC20, MinterRole {
+contract MintableToken is ERC20, MinterRole {
   /**
    * @dev Function to mint tokens
    * @param to The address that will receive the minted tokens.
